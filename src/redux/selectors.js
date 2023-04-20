@@ -1,0 +1,1 @@
+export const getLoaderStatus = state => state.loader.status;
