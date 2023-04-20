@@ -1,6 +1,6 @@
 import { useSelector, useDispatch } from 'react-redux';
 import { getLoaderStatus } from './redux/selectors';
-import { setIsLoading } from './redux/actions';
+import { setIsLoading } from './redux/loaderSlice';
 import Loader from './components/Loader';
 
 function App() {
